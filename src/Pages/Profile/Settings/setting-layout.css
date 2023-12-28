@@ -1,0 +1,118 @@
+
+
+h6,h4{
+   font-weight: 900 !important;
+   padding: 5px 0px;
+}
+
+.user-switch-details { 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 20px 0px; 
+}
+
+.user-switch-details div{ 
+   display: flex; 
+   flex-direction: column;
+   align-items: flex-start;     
+}
+
+.user-switch-details img{
+   width:70px;
+   border-radius: 100px;
+}
+
+.user-switch-details p{
+   font-size: 16px; 
+   font-weight: normal;
+}
+
+.user-switch-details button{ 
+   border-radius: 5px;
+   border: none;
+   background: rgb(215, 219, 246);
+   font-size: 16px;
+   font-weight: 800;
+   padding: 5px 10px;
+}
+
+.user-switch-details div input.update-inputs-feilds{ 
+   border-radius: 5px;
+   border: 1px solid blue;
+   background: transparent; 
+}
+
+.user-switch-details button.transparent-btn{  
+   background: transparent; 
+}
+
+.social-div{ 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border: 1px solid gray;
+   border-radius: 5px;
+   margin-bottom: 20px;
+}
+
+.social-div div{ 
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   padding: 0px 10px; 
+}
+
+.social-div div div{ 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column; 
+   padding: 10px 0px 0px 20px;
+}
+
+.setting-btn{
+   border-radius: 5px;
+   border: none;
+   background: rgb(215, 219, 246);
+   font-size: 16px;
+   font-weight: 800;
+   padding: 5px 10px;
+   margin-right: 10px;
+}
+
+.user-notification{
+   display: flex; 
+   align-items: flex-start;
+   flex-direction: column;
+}
+
+.user-notification div{
+   display: flex; 
+   align-items: center;
+   width: 500px; 
+}
+
+.user-notification div input{
+  height: 20px;
+   width: 20px; 
+   border-radius: 5px;
+   margin: -15px 15px 0px 0px; 
+}
+
+.user-notification div p{ 
+   width: 200px;   
+}
+
+.payment-type{
+   width: 100%;
+   background-color: transparent;
+   font-size: 17px;
+   padding: 5px 10px;
+   outline: none;
+   margin: 10px 0px;
+   border-radius: 5px;
+   border: 2px solid gray;
+   font-weight: 700;
+}
+ 

@@ -1,0 +1,91 @@
+.sign-main-div{
+  width: 100%;
+  height: 100vh;
+  min-height: 800px; 
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row-reverse;  
+  max-height: 900px;
+}
+
+.sign-main-div .img-div{ 
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sign-main-div img{
+  width: 70%;  
+  max-width: 600px;
+  min-width: 500px;
+  margin: 0px 5%;
+}
+
+.sign-main-div .body-content{ 
+  width: 400px;
+  padding: 40px;
+  margin:40px 5%; 
+}
+
+.signin-main-div .body-content p{
+  font-weight: 900 !important; 
+}
+
+.sign-main-div .body-content h4{
+  font-family: 'Tienne', serif;
+  font-size: 25px;
+}
+
+.sign-main-div .body-content label{ 
+  width: 100% ;
+  font-weight: 700;  
+}
+
+.sign-main-div .body-content label input{ 
+  width: 100% ;
+  border: 1px solid gray;
+  outline: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-size: 17px;
+}
+
+.sign-main-div .body-content label.checkbox-input {
+  font-size: 15px; 
+  display: flex; 
+  align-items: center; 
+}
+
+.sign-main-div .body-content label.checkbox-input input{ 
+  width: 20px ; 
+  height: 20px;
+  border-radius: 5px;
+  margin-right: 10px; 
+}
+
+.sign-main-div .body-content button{ 
+  width: 100% ; 
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 8px;
+  font-size: 17px;
+  background-color: blue;
+  font-weight: 800;
+  color: white;
+}
+
+.sign-main-div .body-content div{ 
+  width: 100% ;   
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+}
+
+.sign-main-div .body-content div .icon{ 
+  color: blue;
+  font-size: 30px;
+}

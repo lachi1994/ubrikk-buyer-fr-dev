@@ -1,0 +1,105 @@
+@import '~react-toastify/dist/ReactToastify.css';
+@import url("https://fonts.googleapis.com/css2?family=Tienne:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@550&display=swap");
+.h-15 {
+  height: 15% !important;
+}
+
+.h-85 {
+  height: 85% !important;
+}
+
+@media (min-width: 768px) {
+  .h-md-100 {
+    height: 100% !important;
+  }
+}
+.visible-on-999 {
+  display: none;
+}
+
+@media only screen and (max-width: 999px) {
+  .invisible-on-999 {
+    display: none !important;
+  }
+  .visible-on-999 {
+    display: block;
+  }
+}
+:root {
+  --bs-blue: #5e72e4;
+  --bs-indigo: #5603ad;
+  --bs-purple: #8965e0;
+  --bs-pink: #f3a4b5;
+  --bs-red: #f5365c;
+  --bs-orange: #fb6340;
+  --bs-yellow: #ffd600;
+  --bs-green: #2dce89;
+  --bs-teal: #11cdef;
+  --bs-cyan: #2bffc6;
+  --bs-white: #fff;
+  --bs-gray: #8898aa;
+  --bs-gray-dark: #32325d;
+  --bs-light: #ced4da;
+  --bs-lighter: #e9ecef;
+  --bs-primary: #5e72e4;
+  --bs-secondary: #f7fafc;
+  --bs-success: #2dce89;
+  --bs-info: #11cdef;
+  --bs-warning: #fb6340;
+  --bs-danger: #f5365c;
+  --bs-light: #adb5bd;
+  --bs-dark: #212529;
+  --bs-default: #172b4d;
+  --bs-white: #fff;
+  --bs-neutral: #fff;
+  --bs-darker: black;
+  --bs-primary-rgb: 94, 114, 228;
+  --bs-secondary-rgb: 247, 250, 252;
+  --bs-success-rgb: 45, 206, 137;
+  --bs-info-rgb: 17, 205, 239;
+  --bs-warning-rgb: 251, 99, 64;
+  --bs-danger-rgb: 245, 54, 92;
+  --bs-light-rgb: 173, 181, 189;
+  --bs-dark-rgb: 33, 37, 41;
+  --bs-white-rgb: 255, 255, 255;
+  --bs-black-rgb: 0, 0, 0;
+  --bs-breakpoint-xs: 0;
+  --bs-breakpoint-sm: 576px;
+  --bs-breakpoint-md: 768px;
+  --bs-breakpoint-lg: 992px;
+  --bs-breakpoint-xl: 1200px;
+  --bs-font-family-sans-serif: "Open Sans", sans-serif;
+  --bs-font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+  	"Courier New", monospace;
+}
+
+html {
+  height: 100%;
+}
+html body {
+  height: 100%;
+  font-family: "Inter", sans-serif;
+}
+
+main.custom-home .fade-enter {
+  opacity: 0;
+  transform: scale(0.9) translateY(100%);
+}
+main.custom-home .fade-enter-active {
+  opacity: 1;
+  transform: translateX(0) translateY(0);
+  transition: opacity 500ms, transform 1000ms;
+}
+main.custom-home .fade-exit {
+  opacity: 1;
+}
+main.custom-home .fade-exit-active {
+  opacity: 0;
+  transform: scale(0.9) translateY(100%);
+  transition: opacity 500ms, transform 1000ms;
+}/*# sourceMappingURL=index.css.map */

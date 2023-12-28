@@ -1,0 +1,302 @@
+
+.landing-body{
+  width: 100%;    
+  min-height: 100vh;
+  background: url("../../assets/img/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0 !important;
+}
+
+.landing-content { 
+  display: block;
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0px 5%;
+  text-align: center; 
+  font-size: 25px;
+  font-family: 'Tienne', serif;
+}
+
+.landing-content span {
+  color: #0913FA;
+}
+ 
+.landing-input{
+  font-size: 17px;  
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  outline: none;
+  max-width: 600px;
+  width: 70%;
+  margin: 20px 0px;
+}
+
+
+.custom{
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Tienne', serif;
+}
+.need{
+  font-size: 50px;
+  font-weight: 400;
+  font-family: 'Tienne', serif; 
+}
+ 
+
+.ado-vdo-lables{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin-top: -40px; 
+}
+
+.ado-vdo-lables div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column; 
+  margin: 0px 40px; 
+}
+
+.ado-vdo-lables div .icon{
+  color: #0913FA;
+  font-size: 30px; 
+}
+
+.ado-vdo-lables div p{
+  font-weight: 800; 
+  margin-top: 5px;
+}
+
+.btn-groups{ 
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 50px 0 0px 300px ;
+}
+ 
+
+.btn-groups button{
+  background-color: #0913FA;
+  color: #fff;
+  padding: 15px 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  width: 150px;
+  border: none;
+}
+ 
+
+.btn-groups button.btn-transparent{
+  background-color: transparent; 
+  color: black;
+}
+ 
+
+.three-lables {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 2;
+  gap: 50px;
+  margin: 0px 5%;
+  cursor: pointer;
+}
+
+.three-lables div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border: 3px solid black;
+  height: 260px;
+  width: 170px;  
+  border-radius: 20px;
+}
+
+.three-lables div img {
+  width: 120px;
+}
+
+.three-lables div p {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.links {
+  font-size: 18px;
+  font-weight: 800;
+  text-decoration: none;
+  color: black; 
+}
+
+
+.social-icons {
+  text-align: center;
+  width: 100%;
+  font-size: 30px;
+  color: #0913FA; 
+  margin: 50px 0px;
+}
+
+.social-icons .icon {
+  margin: 0px 10px;
+}
+  
+
+/* this code for navbar landing header  */
+.navbar-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 5% !important;
+}
+
+.navbar-div .logo h4 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-div .nav {
+  display: flex;
+}
+
+.navbar-div .nav a {
+  text-decoration: none;
+  margin: 0px 20px;
+  color: #000000;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.auth-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-btn button {
+  border: none;
+  background: transparent;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 5px 10px;
+  margin: 0px 10px;
+  border-radius: 5px;
+}
+
+.auth-btn button a {
+  color: black;
+  text-decoration: none;
+}
+
+
+.auth-btn button.signup-btn {
+  border: none;
+  background: transparent;
+  font-size: 17px;
+  font-weight: 600;
+  background-color: #0913FA;
+  padding: 5px 10px;
+  margin: 0px 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+.auth-btn button.signup-btn a {
+  color: white;
+}
+
+@media(max-width:744px) {
+
+  .three-lables {
+    flex-wrap: wrap;
+    gap: 20px; 
+  }
+
+  .three-lables div {
+    height: 210px;
+    width: 210px;
+  }
+
+  .three-lables {
+    position: relative;
+  }
+
+  .landing-content {
+    font-size: 20px !important;
+    margin: 20px;
+    padding: 20px; 
+  }
+
+}
+
+@media(max-width:490px){
+
+  .landing-content{ 
+    font-size: 15px !important; 
+    margin: 0;
+    padding: 5px;
+  }
+
+  .three-lables{
+    margin-top: 15px; 
+    flex-direction: column;    
+  }
+  .three-lables div{ 
+    width: 100%; 
+    align-items: center;
+    flex-direction: row;
+    height: 115px; 
+    padding: 30px;
+  }
+  .three-lables div img{ 
+    width:70px;
+  }
+  .three-lables div p{ 
+    flex: 1;
+    padding: 30px; 
+    font-size: 24px !important;
+  }
+  .custom{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Tienne', serif;
+    margin: 10px 0px;
+  }
+  .need{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Tienne', serif;
+    margin: 10px 0px;
+  }
+  .landing-input{
+    width:312px;
+height:48px;
+  }
+  .ado-vdo-lables{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  .ado-vdo-lables div p{
+    font-weight: 600; 
+    margin-top: 5px;
+    font-size: 13px;
+  }
+  .btn-groups{ 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 10px 0px;
+  
+  }
+ } 

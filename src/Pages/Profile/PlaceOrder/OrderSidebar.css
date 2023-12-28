@@ -1,0 +1,100 @@
+.o-sidebar {
+   width: 26vw;
+   height: fit-content;
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   background: white;
+   display: grid;
+   place-items: center;
+   margin: 0px;
+   border-top-left-radius: 15px;
+   border-bottom-left-radius: 15px;
+ }
+ 
+ .close-btn{
+   cursor: pointer;
+   position: absolute;
+   left: 0.2em;
+   top: 0.2em;
+   background-color: #0913FA;
+   border-radius: 50%;
+
+ }
+ .sidebar-details
+ {
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   margin-left: 1.15rem;
+   margin-top: 1rem;
+ }
+ .name-review
+ {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 600;
+    margin-left: 1.0em;
+    margin-right: 1.5em;
+    margin-bottom: 0.9rem;
+    margin-top:0.9rem;
+ }
+ .tag-reviews
+ {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 1.0em;
+  margin-right: 1.5em;
+ }
+ .buttons
+ {
+  display: flex;
+  flex-direction: row;
+ }
+ .text-sidebar
+ {
+   color: #0913FA;
+   font-weight: 600;
+   margin-bottom: 0.2rem;
+ }
+ .notes{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  column-gap: 20px;
+  padding: 10px;
+ 
+ }
+.notes div{
+   font-size: 25px;
+   border: solid 1px black;
+    text-align: center;
+    padding:0px 10px;
+    border-radius: 8px;
+
+
+ }
+.notes div p{
+  font-size: 13px;
+  font-weight: 800;
+}
+.text-sidebar-btn
+{
+  margin-top: 0.5rem;
+}
+.text-sidebar-btn-new
+{
+  margin-left: 0.9rem;
+  font-weight: 500;
+  margin-top: 0.4rem;
+}
+.text-sidebar-start
+{
+  color: #0913FA;
+  font-weight: 600;
+  margin-left: 6.5rem;
+  margin-bottom: 0.1rem;
+}

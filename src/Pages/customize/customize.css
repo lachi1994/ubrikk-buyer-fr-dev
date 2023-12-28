@@ -1,0 +1,112 @@
+.customize-container{ 
+   width: 100%; 
+   position: relative;
+   min-height: 850px !important; 
+}
+
+.customize-body{
+   position: absolute;
+   top: 70px;
+   width: 100%; 
+   min-height: 100%; 
+   height: calc(100vh - 70px); 
+   display: flex;  
+   justify-content: space-around; 
+   flex-direction: column; 
+   align-items: center;
+}
+
+.customize-body .center-body{ 
+   width: 100%; 
+   display: flex; 
+   height: 750px;
+   justify-content: center;  
+   align-items: flex-start;
+}
+
+.customize-body .footer-body{ 
+   width: 95%;  
+}
+
+
+.customize-body .footer-body .customize-footer{ 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;  
+}
+
+.customize-body .footer-body .customize-footer .btn-grp{  
+   width: 350px;
+   height: 60px;
+   display: flex;
+   justify-content: center;
+}
+
+.customize-body .footer-body .customize-footer .btn-grp button{ 
+   border: none;
+   width: 100%;
+   background: blue;
+   font-size: 18px;
+   font-weight: 800;
+   border-radius: 10px;
+   color: white;
+}
+
+.customize-body .footer-body .customize-footer .btn-grp button.transparent{  
+   background: transparent; 
+   color: rgb(41, 41, 41);
+}
+
+.customize-social-icons{
+   color: blue;
+   font-size: 25px; 
+   margin: 0px 10px;
+   width: 110px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.customize-sidebar{ 
+   margin: 0px 40px ; 
+   border-radius: 20px;  
+   height: 100%;
+}
+ 
+.customize-outlet{
+   flex: 1;   
+   margin: 0px 50px 0px 0px;
+   border-radius: 20px; 
+   width: 100%;
+   background-color: white;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column; 
+   padding: 50px;
+} 
+
+.openDesktop{
+   background-color: blue;
+   position: absolute;
+   top: 200px; 
+   display: none;
+   margin: 0px 10%;
+   color: white;
+   border-radius: 20px;
+   width: 80%; 
+   text-align: center;
+   font-weight: 900;
+   padding: 20px;
+}
+  
+
+@media (max-width: 1200px) {
+   .customize-body{
+      display: none;
+   }
+   .openDesktop{
+      display: block;
+   }
+}

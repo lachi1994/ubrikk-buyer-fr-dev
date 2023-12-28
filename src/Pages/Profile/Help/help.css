@@ -1,0 +1,62 @@
+.body-div{ 
+   width: 100% !important; 
+}
+
+.header-drop-filter{
+	display: flex;  
+	justify-content: space-between;
+	align-items: center;   
+}
+
+.header-drop-filter div span{ 
+	background-color: rgb(240, 240, 240);
+	padding: 5px 15px;
+	border-radius: 30px;
+	font-size: 17px; 
+}
+
+.header-drop-filter div .menu-icon{  
+	background-color: rgb(207, 212, 255);
+	padding: 5px;
+	height: 30px;
+	width: 40px;
+	font-size: 30px;
+	margin-top: -5px;
+	border-top-left-radius: 30px;
+	border: 1px solid rgb(130, 131, 134);
+	border-bottom-left-radius: 30px;
+}
+
+.header-drop-filter div .bar-icon{  
+	background-color: rgb(235, 235, 235);
+	padding: 5px;
+	height: 30px;
+	width: 40px;
+	font-size: 30px;
+	margin-top: -5px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+
+
+.header-drop-filter p{
+	font-size: 40px;
+	font-weight: 700;
+	padding: 20px 0px;
+}
+
+.help-details-text details summary {
+   color: #1e1e1e ;
+   font-weight: 600;
+   font-size: 20px; 
+}
+
+.help-details-text details[open] summary{
+   color: #6772E5; 
+}
+
+.help-details-text details summary p{
+   color: #6772E5;
+   font-weight: 400;
+   font-size: 18px; 
+}

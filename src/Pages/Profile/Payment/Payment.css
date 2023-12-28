@@ -1,0 +1,170 @@
+.logo{
+   padding: 25px;
+}
+.main-header{
+   display: flex;
+   flex-direction: row;
+   
+}
+.header{
+   margin:  0px 30% 0px ;
+   display: flex;
+   flex-direction: row;
+   column-gap: 0px;
+   margin-top: 40px;
+   
+
+
+}
+.one{
+   font-size: larger;
+   color: white;
+   border-radius: 100%;
+   border: #6772E5 solid 1px;
+   width: 30px;
+   text-align: center;
+   background-color: #6772E5;
+   margin-left: 5px;
+  
+
+}
+.part-1{
+   display: flex;
+   flex-direction: column;
+   row-gap: 8px;
+}
+.header .part-1 .heading1{
+   color: #6772E5;
+   font-size: 12px;
+   
+   
+}
+.two{
+   font-size: 10px;
+   color: white;
+   border-radius: 100%;
+   border: #6772E5 solid 1px;
+   width: 20px;
+   text-align: center;
+   background-color: #6772E5;
+   margin-left: 5px;
+}
+.part-2{
+   display: flex;
+   flex-direction: column;
+   row-gap: 12px; 
+}
+.heading2{
+   font-size: 10px;
+
+}
+.left-arrow{
+   font-size: 20px;
+   font-weight: bold;
+   padding: 25px;
+}
+.method{
+
+width: 95vw;
+   background-color: white;
+   margin: 10px 20px ;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   
+   
+}
+.sub-heading{
+   font-size: 25px;
+   padding: 15px;
+}
+.check{
+   margin: 20px;
+   border: solid 1px black;
+   border-radius: 5px;
+   padding: 10px;
+}
+.check label{
+   padding:  0px 20px;
+   font-size: 20px;
+   font-weight: bold;
+  
+}
+
+.method .main .details{
+   display: flex;
+   flex-direction: column;
+   row-gap: 10px;
+   padding: 20px;
+   
+}
+
+ .main{
+   border: solid 1px black;
+   margin: 10px;
+   border-radius: 5px;
+   background-color: #d3d6f8;
+}
+.main .select{
+   margin: 20px;
+   font-size: 15px;
+   font-weight: bold;
+}
+  .main .sub-content .details .card-details{
+   display: flex;
+   flex-direction: row;
+   column-gap: 20px;
+   
+ }
+  .main .sub-content .details .card-details input{
+   width: 500px;
+   border: gray 1px solid;
+   border-radius: 5px;
+ }
+  .main .sub-content .details .card-details input[type=number]{
+   width: 100px;
+   background-color: #f0f0f0;
+ }
+  .main  .sub-content{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   border: solid 1px black;
+   margin: 20px;
+   border-radius: 5px;
+   background-color: white;
+   column-gap: 100px;
+ }
+  .main .sub-content .line  {
+   height: 130px;
+   width: 1px;
+   background-color: gray;
+   margin-top: 10px;
+   
+ }
+  .main .sub-content .card-row{
+   display: flex;
+   flex-direction: column;
+   row-gap: 10px;
+   margin-top: 20px;
+ }
+  .main .sub-content .card-row .square-row{
+   display: flex;
+   flex-direction: row;
+   column-gap: 10px;
+ }
+  .main .sub-content .card-row .square-row .square{
+   height: 20px;
+   width: 30px;
+   background-color: gray;
+ }
+  .main .sub-content .card-row div span{
+   font-weight: bold;
+ }
+ .continue Button{
+   
+margin-left: 88vw;margin-top: 20px;
+
+
+margin-bottom: 10px;
+ }

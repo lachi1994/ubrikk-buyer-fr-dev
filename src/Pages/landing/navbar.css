@@ -1,0 +1,148 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.navbar{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   color:black;
+   padding: 15px 5%;
+}
+.nav-links{
+   display: flex;
+   
+   list-style: none;
+   width: 75%;
+   
+}
+.nav-list{
+   display: flex;
+   list-style: none;
+   
+}
+.link-tab{
+   text-decoration: none!important;
+   margin: 0px 20px;
+   color: black;
+   font-size: 17px;
+   font-weight: 600; 
+
+}
+.login,.signup{
+   /* 
+   font-size: 20px;
+   padding: 10px 20px;
+   margin: 0 10px;
+    */
+   border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 600; 
+  padding: 5px 10px;
+  margin: 0px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+   color: black;
+}
+.nav a{
+   
+      text-decoration: none;
+      margin: 0px 20px;
+      color: black;
+      font-size: 17px;
+      font-weight: 600; 
+    
+}
+.signup{
+   border: none;
+   cursor: pointer;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #0913FA; 
+  padding: 5px 10px;
+  margin: 0px 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+
+.logo h4{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tablet-menu{
+   display: none;
+}
+.mobile-menu{
+   display: none;
+}
+@media(max-width:870px){
+   .nav-links-tablet{
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+      background-image: url("../../assets/img/bg.jpg");
+      width:50%;
+      height: 100vh;
+      list-style: none;
+      transition: 0.5 all ease-out;
+      z-index: 5;
+   }
+   .signup,.login{
+      color: black;
+      font-size: 20px;
+      text-align: left;
+      cursor: pointer;
+      transition: 0.5 all ease;
+      margin-top: 20px;
+   }
+   .tablet-menu{display: block;
+   font-size: 25px;
+top:0;
+right: 25px;
+position: absolute;
+z-index: 5;
+padding: 10px 0;
+}
+.nav-links{
+   display: none;
+}
+.signup{
+   background-color: transparent;
+   border: none;
+   
+}
+}
+@media(max-width:680px){
+   .logo{ 
+      margin: 0px auto ; 
+   }
+.mobile-menu{
+   display: block;
+   font-size: 25px;
+   top:0;
+   left: 25px;
+   position: absolute;
+   z-index: 5;
+   padding: 10px 0;
+}
+.nav-list{
+   display: none;
+}
+.nav-list-mobile{
+   display: block;
+   position: absolute;
+   left: 0;
+   top: 40px;
+   background-image: url("../../assets/img/bg.jpg");
+   width:50%;
+   height: 100vh;
+   list-style: none;
+   transition: 0.5 all ease-out;
+   z-index: 5;
+}
+}

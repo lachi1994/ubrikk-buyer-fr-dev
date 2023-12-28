@@ -1,0 +1,66 @@
+.profile-container{
+   
+   width: 100%;
+   height: 100%;
+   z-index: 255; 
+}
+
+.profile-body{
+   position: absolute;
+   top: 60px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+}
+
+.sidebar{ 
+   margin: 40px ;
+}
+ 
+.outlet{
+   flex: 1; 
+   margin-right: 50px; 
+} 
+
+.header-div {
+   margin-top: 40px;
+   border-radius: 20px;
+   padding: 15px 0px;
+   background: blue;
+   width: 100%;
+}
+
+.header-div h2{
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+  padding: 15px;
+}
+
+.header-div div img{
+   width: 50px ;
+   margin: 0px 30px;
+}
+
+.header-div div p{
+   color: #fff;
+   text-align: center;
+   margin-top: 10px;
+   font-weight: 600;
+   position: relative;
+   font-size: 16px; 
+}
+
+.header-div div p.active::after{
+   position: absolute;
+   top: 100%;
+   left: 18%; 
+   content: "";   
+   height: 70px;
+   overflow: hidden;
+   width: 70px; 
+   clip-path: ellipse(25% 40% at 50% 50%);
+   background-color: #f0f0f0;  
+}

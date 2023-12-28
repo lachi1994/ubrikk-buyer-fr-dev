@@ -1,0 +1,133 @@
+ .order-sidebar{
+	margin: 40px;
+ }
+.mainDiv{
+	width: 100%;    
+} 
+ 
+.items-div{  
+	display: flex;
+	justify-content: flex-start;  
+	
+   flex-wrap: wrap;
+} 
+.months{
+	font-size: 25px; font-weight: 800;
+	width: 100%;
+}
+.items-div .item{
+	height: 290px;  
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+	padding: 15px; 
+}
+
+.items-div .item img{
+	height: 180px;   
+	border-radius: 20px;
+}
+
+.items-div .item .item-title {  
+	display: flex;
+	justify-content: space-between; 
+	align-items: flex-start; 
+	width: 100%;
+	padding: 0px 10px;
+}
+
+.items-div .item .item-title h6 {  
+	font-size: 18px !important;
+	font-weight: 700; 
+}
+
+.items-div .item .item-title p {  
+	color: gray;
+}
+
+.items-div .item .item-title b {  
+	font-size: 16px; 
+	padding: 5px; 
+	color: gray;
+}
+
+.header-drop-filter{
+	display: flex; 
+	justify-content: space-between;
+	align-items: center; 
+}
+
+.header-drop-filter div span{ 
+	background-color: rgb(240, 240, 240);
+	padding: 5px 15px;
+	border-radius: 30px;
+	font-size: 17px; 
+}
+
+.header-drop-filter div .menu-icon{  
+	background-color: rgb(207, 212, 255);
+	padding: 5px;
+	height: 30px;
+	width: 40px;
+	font-size: 30px;
+	margin-top: -5px;
+	border-top-left-radius: 30px;
+	border: 1px solid rgb(130, 131, 134);
+	border-bottom-left-radius: 30px;
+}
+
+.header-drop-filter div .bar-icon{  
+	background-color: rgb(235, 235, 235);
+	padding: 5px;
+	height: 30px;
+	width: 40px;
+	font-size: 30px;
+	margin-top: -5px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+
+
+.header-drop-filter p{
+	font-size: 40px;
+	font-weight: 700;
+	padding: 20px 0px;
+}
+@media (max-width:360px){
+	.order-sidebar{
+		margin: 0px!important;
+	}
+	.items-div .item .item-title{
+		display: flex;
+		flex-direction: column;
+	}
+	.span-title{
+		font-size: 15px !important;
+	}
+	.items-div .item img{
+		height: 93px;  
+		width: 100px; 
+		border-radius: 20px;
+	}
+	
+	.date{
+		display: none;
+	}
+	.items-div .item{
+		padding: 15px 5px;
+	}
+	.mainDiv{
+		margin: 0px 3px;
+	}
+	.your-order{
+		font-size: 16px!important;
+		font-weight: 600;
+	}
+	.months{
+		font-size: 16px!important;
+		font-weight: 600;
+	margin-left:30% ;
+	margin-top: 10px;
+	}
+}

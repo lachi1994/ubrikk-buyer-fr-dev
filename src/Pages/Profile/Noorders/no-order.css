@@ -1,0 +1,73 @@
+.body-div{ 
+   width: 100% !important; 
+}
+
+.header-drop-filter{
+	display: flex;  
+	justify-content: space-between;
+	align-items: center;   
+}
+
+.header-drop-filter div span{ 
+	background-color: rgb(240, 240, 240);
+	padding: 5px 15px;
+	border-radius: 30px;
+	font-size: 17px; 
+}
+
+.header-drop-filter div .menu-icon{  
+	background-color: rgb(207, 212, 255);
+	padding: 5px;
+	height: 30px;
+	width: 40px;
+	font-size: 30px;
+	margin-top: -5px;
+	border-top-left-radius: 30px;
+	border: 1px solid rgb(130, 131, 134);
+	border-bottom-left-radius: 30px;
+}
+
+.header-drop-filter div .bar-icon{  
+	background-color: rgb(235, 235, 235);
+	padding: 5px;
+	height: 30px;
+	width: 40px;
+	font-size: 30px;
+	margin-top: -5px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+
+
+.header-drop-filter p{
+	font-size: 40px;
+	font-weight: 700;
+	padding: 20px 0px;
+}
+
+.image-text{
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   flex-direction: column; 
+}
+
+.image-text div h6{
+   font-size: 20px !important;
+   font-weight: 800;
+   text-align: center;
+   padding: 30px 0px;
+}
+
+.image-text div p{
+   font-size: 18px;
+   text-align: center;
+}
+
+.image-text img{
+   width: 470px;
+}
+
+.setting-p{
+	font-size: 18px;
+}
